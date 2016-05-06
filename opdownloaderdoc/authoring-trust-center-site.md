@@ -1,19 +1,19 @@
 # Authoring content for Open Publishing ##
-This topic will contain information you need to know when authoring content in Open Publishing repository - trust center china. 
+This topic will contain information you need to know when authoring Trust Center China content in Open Publishing repository. 
 
 1. All the possible layout of trust center site shares the same header and footer, so this part has been extracted as template.
 ![authoring](./images/authoring-template.png)
 
-2. Include the yml header and add layout: AzurePortalPage metadata, this is how OP includes template.
+2. Include the yml header and add layout: AzurePortalPage metadata in every markdown file, this is how OP includes the above template.
 ```
 > ---
 > layout: AzurePortalPage
 > ---
 ```
 
-3. Considering the complexity of the page, you need to author other part of page by modifying the html. div id or class is your friend to find which html part is corresponding to content on page. I list some of the parts for your reference.
+3. Considering the complexity of the page, you need to author other part of page by modifying the html. div id or class is your friend to find which html part you need to edit. I list some of the parts for your reference.
 
-- HeaderWrapper or hero wrapper, it is the hero section to draw attention to key information, include several background images and inline text. Add more <li> tag in <ul> to include more slide.
+- HeaderWrapper or hero wrapper, it is the hero section to draw attention to key information, include several background images and inline text. Add more "li" tag in "ul" tag to include more slide.
 ```
 > <div id="HeaderWrapper" data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid wider hero grid-container">
 ```

@@ -1,7 +1,7 @@
 # URL Management
 
 ## 1. URL Structure
-Your URL will be defined by the domain where content gets published, locale, docset name,  folder structure, and file names in your repo. 
+Your URL will be defined by the domain where content gets published, docset name(base url), folder structure, and file names in your repo. 
 
  `http://{site}/{BaseURL}{ContentPath}`
 
