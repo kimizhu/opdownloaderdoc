@@ -17,5 +17,5 @@ Then, you can manage the permission in Open Source Hub, find your team in [Manag
 4. Click the "Collaborators & teams" tab.
 5. Start typing the collaborator's username.
 6. Select the user from the drop-down menu.
-![Git repo permission](../images/repo-permission.png)
+![Git repo permission](./images/repo-permission.png)
 7. Click Add collaborator.

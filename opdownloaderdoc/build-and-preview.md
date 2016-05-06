@@ -23,8 +23,8 @@ Once the repo is provisioned, OPS monitors changes in the repo and publishes the
 
 Teams can look at the [OPS portal](https://op-portal-sandbox.azurewebsites.net/#/containers/repository/repositories/All). for build status and logs of current and past builds.
 
-![Build history](../images/portal_build_history.png)
+![Build history](./images/portal_build_history.png)
 
 For each entry in the Build history, you may find build status, change log and build log on the right panel.
 
-![build log](../images/portal_build_log.png)
+![build log](./images/portal_build_log.png)
