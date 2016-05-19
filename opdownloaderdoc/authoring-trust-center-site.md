@@ -11,6 +11,14 @@ layout: AzurePortalPage
 ---
 ```
 
+Notice this has been changed to 
+
+```
+---
+layout: TrustCenterPage
+---
+```
+
 3. Considering the complexity of the page, you need to author other part of page by modifying the html. div id or class is your friend to find which html part you need to edit. I list some of the parts for your reference.
 
 - HeaderWrapper or hero wrapper, it is the hero section to draw attention to key information, include several background images and inline text. Add more "li" tag in "ul" tag to include more slide.
